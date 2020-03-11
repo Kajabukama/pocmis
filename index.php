@@ -26,11 +26,10 @@
 
 			if($rows > 0){
 
-				$isAuthenticated = true;
-				$_SESSION['isAuth'] = $isAuthenticated;
+				$isAuth = true;
+				$_SESSION['isAuth'] = $isAuth;
 				$_SESSION['userId'] = $user['id'];
 				$_SESSION['role'] = $user['role'];
-				$_SESSION['username'] = $user['username'];
 
 				if($user['active'] == 1){
 					if($user['role'] == 'admin'){
@@ -107,9 +106,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row">
-			
 		</div>
 	</div>
 
