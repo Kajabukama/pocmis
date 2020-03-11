@@ -71,7 +71,7 @@
 							<div class="logo text-center">
 								<img class="mx-auto d-block" src="assets/images/logo-police.jpeg" alt="" width="110px">
 								<h6 class="mt-3 mb-3">PoCMIS</h6>
-								<h2><b>Sign In</b></h2>
+								<<!-- h2><b>Sign In</b></h2> -->
 								<p class="text-muted">Use your credentials given by the system Administrator</p>
 							</div>
 						</div>
