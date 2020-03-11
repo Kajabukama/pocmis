@@ -43,7 +43,7 @@ label:focus,
 	margin-top: 4rem !important;
 }
 .card{
-	max-height: 230px !important;
+	/*max-height: 230px !important;*/
 	border-radius: 0px !important;
 }
 .large{

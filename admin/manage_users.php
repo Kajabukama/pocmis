@@ -4,6 +4,8 @@
 
 	// check if the user is authenticated
 	isAuth();
+	$message = "";
+	$message = $_SESSION['message'];
 
 	// initialize database connection
 	$instance = openConnection();
@@ -33,6 +35,9 @@
 			<div class="col-md-12 text-center">
 				<h2 class="text-muted">User Management</h2>
 				<h6 class="text-muted">A strting place for administrator tasks.</h6>
+			</div>
+			<div class="col-md-12">
+				<?php echo $message; unset($_SESSION['message']); ?>
 			</div>
 		</div>
 		<div class="row d-flex justify-content-center mt-5">

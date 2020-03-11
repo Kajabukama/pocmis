@@ -4,7 +4,7 @@
 	function isAuth(){
 		if($_SESSION['isAuth'] == false) {
 			header('Location: ../');
-		}
+		} 
 	}
 
 	// this function will return a single user by a given userid

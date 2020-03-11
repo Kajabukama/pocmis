@@ -33,6 +33,7 @@ CREATE TABLE `tbl_users`(
 	username VARCHAR(100) NOT NULL,
 	password VARCHAR(62) NOT NULL,
 	role VARCHAR(20) NOT NULL default 'admin',
+	active INT(2) NOT NULL default 1,
 	createdAt INT(11) default 0
 )AUTO_INCREMENT=100200;
 
