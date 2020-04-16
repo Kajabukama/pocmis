@@ -67,23 +67,23 @@
 						    
 						    <?php  foreach($users as $user): ?>
 						    	<tr>
-								   <td><?php echo $user['firstname'];?></td>
-								   <td><?php echo $user['lastname'];?></td>
-								   <td><?php echo $user['gender'];?></td>
-								   <td><?php echo $user['mobile'];?></td>
-								   <td><?php echo $user['email'];?></td>
-								   <td><?php echo $user['username'];?></td>
+								   <td><?php echo $user['firstname']; ?></td>
+								   <td><?php echo $user['lastname']; ?></td>
+								   <td><?php echo $user['gender']; ?></td>
+								   <td><?php echo $user['mobile']; ?></td>
+								   <td><?php echo $user['email']; ?></td>
+								   <td><?php echo $user['username']; ?></td>
 								   <td><span class="badge badge-warning">
 								   	<?php echo $user['role'];?></span>
 								   </td>
 								   <td><?php echo $user['createdAt'];?></td>
 								   <td>
 								   	<span>
-								   		<a href="edit_user.php?id=<?php echo $user['id'] ?>" class="btn btn-success"><i class="fas fa-edit"></i>
+								   		<a href="edit_user.php?id=<?php echo $user['id']; ?>" class="btn btn-success"><i class="fas fa-edit"></i>
 								   		</a>
 								   	</span>
 								   	<span>
-								   		<a href="delete_user.php?id=<?php echo $user['id'] ?>" class="btn btn-danger"><i class="fas fa-trash"></i>
+								   		<a href="delete_user.php?id=<?php echo $user['id']; ?>" class="btn btn-danger"><i class="fas fa-trash"></i>
 								   		</a>
 								   	</span>
 								   </td>
@@ -98,7 +98,6 @@
 		</div>
 	</div>
 	
-
 	<script src="../assets/js/jquery-3.4.1.slim.min.js"></script>
 	<script src="../assets/js/popper.min.js"></script>
 	<script src="../assets/js/bootstrap.min.js"></script>

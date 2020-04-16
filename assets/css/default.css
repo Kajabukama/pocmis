@@ -1,17 +1,20 @@
 body{
 	background-color: #f8f9fa !important;
-	font-size: 15px!important;
+	font-size: 14px!important;
 }
-input[type="text"], input[type="password"],input[type="submit"]{
-	border-radius: 4px !important;
+input[type="text"],
+input[type="password"],
+input[type="submit"]{
+	border-radius: 0px !important;
 }
 .btn{
-	/*padding: 0.6rem 0.8rem !important;*/
+	padding: 0.4rem 1.3rem !important;
 }
 .badge{
 	border-radius: 6rem !important;
 }
-input[type="text"],input[type="password"]{
+input[type="text"],
+input[type="password"]{
 	padding: 1.4rem 0.9rem !important;
 }
 .form-control{
